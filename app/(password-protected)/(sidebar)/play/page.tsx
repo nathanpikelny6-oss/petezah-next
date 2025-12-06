@@ -166,6 +166,7 @@ export default function Page() {
       <div className="z-1 h-[90%] w-[90%] border-[#0096FF] bg-[#0A1D37] border-2 rounded-2xl p-2! flex flex-col">
         {!isRating ? (
           <iframe
+            title="content-frame"
             className="flex-1 w-full bg-white h-max rounded-t-2xl"
             src={decodedUrl}
             ref={iframeRef}
